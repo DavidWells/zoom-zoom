@@ -2,6 +2,11 @@
 
 /*
 Import a d.ts file and reference exported types
+
+my.d.ts contains: 
+  export function myFun(a: string, b: string, c: string): number;
+
+myFun is referenced via @type $["myFun"]
 */
 
 /**
